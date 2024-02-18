@@ -196,7 +196,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-left: 2px dashed white;
+  border-left: 1.5px dashed white;
 }
 
 .l_t_text h3 {
@@ -348,7 +348,7 @@
   justify-content: space-between;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
-  border-bottom: 2px dashed #c4d3c1;
+  border-bottom: 1.5px dashed #c4d3c1;
   background-color: #e6e6e6;
 }
 
@@ -377,7 +377,7 @@
   width: 30%;
   border-top-right-radius: 16px;
   border-bottom-right-radius: 16px;
-  border-left: 2px dashed #1ece10;
+  border-left: 1.5px dashed #1ece10;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -450,8 +450,8 @@
   height: 10%;
   width: 100%;  
   padding: 0 15px;
-  border-top: 2px dashed #cdcdd0;
-  border-bottom: 2px dashed #cdcdd0;
+  border-top: 1.5px dashed #cdcdd0;
+  border-bottom: 1.5px dashed #cdcdd0;
 }
 
 .left_icon {
@@ -465,7 +465,7 @@
 .left_icon img {
   height: 40px;
   width: 40px;
-  border: 2px dashed #7b7d82;
+  border: 1.5px dashed #7b7d82;
 }
 
 .left_icon p {
@@ -485,7 +485,7 @@
 .right_icon img {
   height: 40px;
   width: 40px;
-  border: 2px dashed #7b7d82;
+  border: 1.5px dashed #7b7d82;
 }
 
 .right_icon p {
@@ -594,18 +594,23 @@
 
 
 
+
+
+
+
+
 .main_right_container {
   height: 100%;
   width: calc(40% - 10px);
   padding: 0 10px;
   margin-left: 10px;
-  border-left: 2px dashed #c4d3c1;
+  border-left: 1.5px dashed #c4d3c1;
 }
 
 .right_contain_title {
   height: 8%;
   width: 100%;
-  border-bottom: 2px dashed #cdcdd0;
+  border-bottom: 1.5px dashed #cdcdd0;
 }
 
 .right_contain_title h2 {
@@ -653,8 +658,8 @@
 .all_booking_info {
   height: auto;
   width: 100%;
-  border-top: 2px dashed #c7c7ca;
-  border-bottom: 2px dashed #c7c7ca;
+  border-top: 1.5px dashed #c7c7ca;
+  border-bottom: 1.5px dashed #c7c7ca;
 }
 
 .all_booking_info ul {
@@ -674,10 +679,10 @@
 .total_price {
   height: 10%;
   width: 100%;
+  margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: darkmagenta;
 }
 
 .total_price p {
@@ -686,5 +691,101 @@
 }
 
 .token_input {
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.token_input input {
+  height: 70%;
+  width: 70%;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.token_input button {
+  height: 70%;
+  width: 20%;
+  font-weight: 800;
+  color: white;
+  border: none;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: #1ece10;
+}
+
+.token_input button:hover {
+  background-color: #1abd0e;
+}
+.token_input button:active {
+  background-color: #17a50d;
+}
+
+.grand_price {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.grand_price p {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.passenger_info {
+  height: 50%;
+  width: 100%;
+}
+
+.passenger_info p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.passenger_info input {
+  height: 10%;
+  width: 90%;
+  padding-left: 10px;
+  border: 1px solid #7b7d82;
+  border-radius: 8px;
+  outline: none;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.next_btn {
+  height: 10%;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.next_btn button {
+  height: 90%;
+  width: 90%;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  background-color: #1ece10;
+}
+
+.next_btn button:hover {
+  background-color: #1bc10f;
+}
+.next_btn button:active {
+  background-color: #18ae0d;
 }
