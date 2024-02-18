@@ -1,6 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
 }
 
+.hero_section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.hero_container {
+  height: 100%;
+  width: 90%;
+}
+
+.nave_container {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nave_container h2 {
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+
+.nave_container h2 span {
+  color: #1ece10;
+}
+
+.nave_container ul {
+  list-style: none;
+  display: flex;
+  gap: 3vw;
+}
+
+.nave_container ul li {
+  font-size: 1rem;
+  color: #7b7d82;
+}
+
+.bus_btn button {
+  padding: 10px 25px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1ece10;
+  display: flex;
+  background-color: #e8fae5;
+}
+
+.bus_btn button img {
+  padding-left: 10px;
+}
+
+.bus_btn button:hover {
+  background-color: #ddeeda;
+}
+.bus_btn button:active {
+  background-color: #c4d3c1;
+}
+
+.hero_contain {
+  height: calc(100vh - 80px);
+  width: 100%;
+  background-image: url('images/banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banar_contain {
+  height: auto;
+  width: 80%;
+}
+
+.banar_contain h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  text-align: center;
+  color: white;
+}
+
+.banar_contain h2 {
+  font-size: 3rem;
+  text-align: center;
+  color: #1ece10;
+  padding: 10px 0;
+}
+
+.banar_contain p {
+  color: white;
+  padding: 0 100px;
+  text-align: center;
+}
+
+.tickets_btn {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tickets_btn button {
+  padding: 15px 20px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: #1ece10;
+  margin-top: 10px;
+}
+
+.tickets_btn button:hover {
+  background-color: #1aba0f;
+}
+.tickets_btn button:active {
+  background-color: #17a80d;
+}
+
+
+
+
+
+
+
+
+
+.ticket_container {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ticket_contain {
+  height: 95%;
+  width: 90%;
+}
+
+.ticket_contain h1 {
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 20px;
+}
+
+.offers {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left_offer {
+  height: 50%;
+  width: 45%;
+  border-radius: 8px;
+  display: flex;
+  background-color: #ffbf0f;
+}
+
+.l_one {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.l_o_text h3 {
+  font-size: 2.5rem;
+}
+.l_o_text h4 {
+  padding: 10px 0;
+  font-size: 1.2rem;
+}
+
+
+.l_two {
+  height: 100%;
+  width: 40%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 2px dotted white;
+}
+
+.l_t_text h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.l_t_text p {
+  font-size: 1.1rem;
+  color: #7b7d82;
+  margin-top: 10px;
+}
+
+
+.right_offer {
+  height: 50%;
+  width: 45%;
+  border-radius: 8px;
+  display: flex;
+  background-color: #f78c9c;
+}
+
+
+
+
+
+
+
+
+
+.ticket_info {
+  height: 200vh;
+  width: 100%;
+  border-top: 3px solid #1ece10;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  background-color: #f7f8f8;
+  display: flex;
+  justify-content: center;
+}
+
+.ticket_details_cotainer {
+  height: 40%;
+  width: 90%;
+}
+
+.details_cotain_text h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.details_cotain_text p {
+  font-size: 1.1rem;
+  color: #7b7d82;
+  text-align: center;
+  padding: 0 200px;
+  padding-top: 10px;
+}
+
+.ticket_details_cotain {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner_contain {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.left_inner_contain {
+  height: auto;
+  width: 70%;
+  padding: 20px;
+  background-color: white;
+}
+
+.company_details {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff ;
+}
+
+.bus_details {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;  
+}
+
+.bus_img img{
+  height: 70px;
+  width: 100px;
+  padding-right: 10px;
+}
+
+.bus_category {
+  height: 100%;
+  width: 100%;
+}
+
+.bus_category h4 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.bus_category h4 span {
+  font-size: 1rem;
+  color: #7b7d82;
+  font-weight: 400;
+}
+
+.available_seat {
+  height: 50%;
+  width: 20%;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ddf8d9;
+}
+
+.number_of_seat {
+  color: #1ece10;
+  padding-left: 10px;
+}
+
+.destination_info {
+  height: calc(100% - 100px);
+  width: 100%;
+  background-color: #1ece10;
+}
+
+.row_one {
+  height: 30%;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px dotted white;
+  background-color: #f7f8f8;
+}
+
+.left_text h4{
+  color: #7b7d82;
+  font-size: 1.2rem;
+}
+.right_text h4{
+  font-size: 1.2rem;  
+}
+
+.row_two {
+  height: 50%;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px dotted white;
+  background-color: #f7f8f8;
+}
+
+.right_inner_contain {
+  height: 88%;
+  width: 30%;
+  border-left: 2px dotted #1ece10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.ticket_price {
+  height: 90%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price h3{
+  font-size: 2rem;
+}
+.price p{
+  color: #7b7d82;
+  padding-top: 10px;
+}
